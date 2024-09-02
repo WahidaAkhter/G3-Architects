@@ -71,17 +71,55 @@ nav li a {
   header {
     padding: 20px;
   }
-  nav{
+  nav {
     flex-direction: column;
   }
 }
 /* laptop or medium devices */
-@media screen and (min-width:576px) and (max-width:960px) {
-  nav{
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  nav {
     flex-direction: column;
   }
   header {
     padding: 50px;
   }
-  
+}
+/* main section */
+main {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+/* teams section */
+
+.teams-container {
+  display: flex;
+  align-items: center;
+}
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.teams-content {
+  padding-right: 70px;
+  padding-left: 70px;
+}
+.teams-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.teams-title .quick-list{
+  color: #727272;
+  font-weight: 500;
+
+}
+.teams-title .of-our{
+  color: #131313;
+  font-weight: 700;
+}
+.teams-title .text-features{
+  color: #FF900E;
+  font-weight: 700;
+}
+.teams-description {
 }
