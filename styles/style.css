@@ -181,6 +181,19 @@ main {
 .ten-years-badge p {
   font-size: 1.5rem;
 }
+.footer {
+  border-radius: 0.5rem;
+  background: #fff4e7;
+  text-align: center;
+  width: 100%;
+ 
+  margin: 7px;
+}
+.footer p {
+  color: #424242;
+  font-size: 1.25rem;
+ 
+}
 
 /* responsive media queries */
 /* mobile devices */
@@ -193,7 +206,7 @@ main {
   .features,
   .teams-container,
   .facts-card-container,
-  .sponsors-img-container {
+  .sponsors-img-container,.footer {
     flex-direction: column;
   }
   .feature-img img {
